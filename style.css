@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.header, .section-one, .footer{
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
