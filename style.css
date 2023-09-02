@@ -31,14 +31,15 @@ ul {
 
 
 .section-one {
-    padding: 200px 200px;
+    padding: 100px 200px;
     display: flex;
-    gap: 50px;
+    gap: 80px;
 }
 
 .left-section-one{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    gap: 20px;
 }
 
 .hero {
