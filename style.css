@@ -12,9 +12,14 @@ body {
     background-color: #1F2937;
 }
 
+.section-one {
+    padding: 20px 200px;
+}
+
 ul {
     display:flex;
     list-style-type: none;
+    gap: 20px;
 }
 
 .header {
