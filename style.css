@@ -13,7 +13,8 @@ body {
 }
 
 .section-one {
-    padding: 20px 200px;
+    padding: 200px 200px;
+    display: flex;
 }
 
 ul {
@@ -43,6 +44,10 @@ ul {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.image-placeholder{
+    background-color: darkgray;
 }
 
 .blue-background {
