@@ -12,9 +12,10 @@ body {
     background-color: #1F2937;
 }
 
-.section-one {
-    padding: 200px 200px;
+.header {
     display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
 }
 
 ul {
@@ -23,16 +24,22 @@ ul {
     gap: 20px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 200px;
-}
-
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+
+.section-one {
+    padding: 200px 200px;
+    display: flex;
+    gap: 50px;
+}
+
+.left-section-one{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .hero {
@@ -46,14 +53,17 @@ ul {
     color: #E5E7EB;
 }
 
-.image-placeholder{
-    background-color: darkgray;
-}
-
 .blue-background {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.image-placeholder{
+    background-color: darkgray;
+    width: 500px;
+}
+
+
 
 .info-header {
     font-size: 36px;
