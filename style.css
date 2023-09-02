@@ -38,14 +38,15 @@ ul {
 
 .left-section-one{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .hero {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    display: flex;
+    
 }
 
 .hero-secondary {
@@ -61,6 +62,12 @@ ul {
 .image-placeholder{
     background-color: darkgray;
     width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
