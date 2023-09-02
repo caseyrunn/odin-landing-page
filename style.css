@@ -59,6 +59,15 @@ ul {
     color: #F9FAF8;
 }
 
+.sign-up-button {
+    padding: 10px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
 .image-placeholder{
     background-color: darkgray;
     width: 500px;
