@@ -84,6 +84,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 50px 200px;
+    gap: 30px;
 }
 
 .info-header {
@@ -92,20 +93,35 @@ ul {
     color: #1F2937;
     display:flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .all-cards {
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rounded-square {
     width: 180px;
     height: 180px;
     border-style: solid;
-    border-radius: 13px;
+    border-radius: 18px;
     border-color: #3882F6;
-    border-width: 5px;
+    border-width: 4px;
+    
+}
+
+.subtext {
+    font-size: 18px;
+    text-align: center;
+    width: 180px;
 }
 
 .section-three {
