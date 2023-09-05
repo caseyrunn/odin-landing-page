@@ -83,6 +83,7 @@ ul {
 .section-two {
     display: flex;
     flex-direction: column;
+    padding: 50px 200px;
 }
 
 .info-header {
@@ -93,12 +94,18 @@ ul {
     justify-content: center;
 }
 
-.boxes {
+.all-cards {
     display: flex;
+    justify-content: center;
 }
 
 .rounded-square {
-
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-radius: 13px;
+    border-color: #3882F6;
+    border-width: 5px;
 }
 
 .section-three {
