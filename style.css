@@ -147,4 +147,6 @@ ul {
 .section-four {
     margin: 100px 200px;
     border-radius: 10px;
+    display: flex;
+    
 }
