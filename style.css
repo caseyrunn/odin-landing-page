@@ -146,8 +146,10 @@ ul {
 
 .section-four {
     margin: 100px 200px;
+    padding: 80px 100px;
     border-radius: 10px;
     display: flex;
+    justify-content: space-around;
 }
 
 .call-to-action h4{
@@ -168,5 +170,6 @@ ul {
     border-width: 2px;
     font-size: 18px;
     font-weight: bold;
+    padding: 8px 40px;
 
 }
