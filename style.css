@@ -140,4 +140,6 @@ ul {
 
 .thor {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
