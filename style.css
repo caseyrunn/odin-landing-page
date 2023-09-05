@@ -83,7 +83,7 @@ ul {
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 50px 200px;
+    padding: 50px 200px 100px 200px;
     gap: 30px;
 }
 
@@ -126,6 +126,9 @@ ul {
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
 }
 
 .quote-text {
@@ -133,4 +136,8 @@ ul {
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+
+.thor {
+    align-self: flex-end;
 }
