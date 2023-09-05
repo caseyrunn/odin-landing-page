@@ -141,12 +141,32 @@ ul {
 .thor {
     align-self: flex-end;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .section-four {
     margin: 100px 200px;
     border-radius: 10px;
     display: flex;
-    
+}
+
+.call-to-action h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action p {
+    font-size: 18px;
+}
+
+.section-four button {
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: bold;
+
 }
