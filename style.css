@@ -171,5 +171,9 @@ ul {
     font-size: 18px;
     font-weight: bold;
     padding: 8px 40px;
+}
 
+.footer {
+    display: flex;
+    justify-content: center;
 }
